@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tensorflow-gpu = "==1.15"
+tqdm = "*"
+gin-config = "*"
+pillow = "*"
+flickrapi = "*"
+tensorflow-hub = "*"
+matplotlib = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"

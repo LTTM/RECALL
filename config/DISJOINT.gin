@@ -1,0 +1,53 @@
+#PARAMETERS 1.0.0.2
+####################### TEST PARAMETERS #########################################
+
+TrainManager.test_name = "DISJOINT"
+TrainManager.helper_decoders_one_class = False # True to use one-class helper even if 
+										       # incremental steps use more classes								
+TrainManager.base_folder_path = "."			   # Base folder of the tree
+TrainManager.validate = True				   # Validate steps
+
+
+########################### COMMON PARAMETERS ###############################
+TrainManager.parameters_common_index = 1 # CHANGE IF YOU CHANGE THE FOLLOWING PARAMETERS
+
+TrainManager.batch_size = 4
+TrainManager.n_classes = 21
+TrainManager.dataset_mean = [104.00698793, 116.66876762, 122.67891434]
+TrainManager.train_image_size = 321
+TrainManager.momentum = 0.9
+TrainManager.start_decay_step = 0
+TrainManager.decay_power = 0.9
+TrainManager.l2_decay = 1e-4 
+
+##########################FIRST STEP PARAMETERS ##############################
+TrainManager.parameters_fs_index = 0 # CHANGE IF YOU CHANGE THE FOLLOWING PARAMETERS
+
+TrainManager.dataset_type_first_step = "sequential"
+TrainManager.lr_initial_value = 5e-4
+TrainManager.lr_final_value = 5e-6
+TrainManager.training_steps_per_class = 1000
+TrainManager.decay_steps_per_class = 1000
+
+######################### HELPER PARAMETERS #####################################
+TrainManager.parameters_helper_index = 0 # CHANGE IF YOU CHANGE THE FOLLOWING PARAMETERS
+
+TrainManager.dataset_type_helpers = "sequential"
+TrainManager.lr_initial_value_helper = 2e-4
+TrainManager.lr_final_value_helper = 2e-6
+TrainManager.training_steps_per_class_helper = 1000
+TrainManager.decay_steps_per_class_helper = 1000
+
+
+# ######################### INCREMENTAL PARAMETERTS ###############################
+TrainManager.parameters_incremental_index = 2 # CHANGE IF YOU CHANGE THE FOLLOWING PARAMETERS
+
+TrainManager.dataset_type_incremental = "disjoint"
+TrainManager.mix_labels = True
+TrainManager.lr_initial_value_incremental = 5e-4
+TrainManager.lr_final_value_incremental = 5e-6
+TrainManager.training_steps_per_class_incremental = 1000
+TrainManager.decay_steps_per_class_incremental = 1000
+TrainManager.interleave_ratio_old = 4
+TrainManager.interleave_ratio_new = 4
+
