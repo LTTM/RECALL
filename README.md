@@ -7,7 +7,7 @@ Andrea Maracani, Umberto Michieli, Marco Toldo and Pietro Zanuttigh <br /><br />
  
 [![Paper](https://img.shields.io/badge/arXiv-2108.03673-red)](https://arxiv.org/abs/2108.03673)
 [![ICCV](https://img.shields.io/badge/ICCV-2021-purple)](http://iccv2021.thecvf.com/home)
-![Video](https://img.shields.io/badge/Video-available_soon-lightgrey)
+![Video](https://img.shields.io/badge/Video-5_mins-lightgrey)(https://lttm.dei.unipd.it/paper_data/RECALL/talk.mp4)
  [![BibTeX](https://img.shields.io/badge/Cite_us-BibTeX-blue)](#Citation)
  
  </div>
@@ -18,9 +18,8 @@ Andrea Maracani, Umberto Michieli, Marco Toldo and Pietro Zanuttigh <br /><br />
 
 The full paper can be downloaded from [here](https://arxiv.org/abs/2108.03673)
 
-The slides and the recordings of the presentation are available: <br/>
-[5 mins slides](https://lttm.dei.unipd.it/paper_data/RECALL/slides.pdf)<br/>
-[5 mins talk](https://lttm.dei.unipd.it/paper_data/RECALL/talk.mp4)<br/>
+The slides and poster of the presentation are available: <br/>
+[5min slides](https://lttm.dei.unipd.it/paper_data/RECALL/slides.pdf)<br/>
 [poster](https://lttm.dei.unipd.it/paper_data/RECALL/poster.pdf)<br/>
 
 <br/>
