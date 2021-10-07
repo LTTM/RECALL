@@ -7,8 +7,8 @@ Andrea Maracani, Umberto Michieli, Marco Toldo and Pietro Zanuttigh <br /><br />
  
 [![Paper](https://img.shields.io/badge/arXiv-2108.03673-red)](https://arxiv.org/abs/2108.03673)
 [![ICCV](https://img.shields.io/badge/ICCV-2021-purple)](http://iccv2021.thecvf.com/home)
-![Video](https://img.shields.io/badge/Video-5_mins-lightgrey)(https://lttm.dei.unipd.it/paper_data/RECALL/talk.mp4)
- [![BibTeX](https://img.shields.io/badge/Cite_us-BibTeX-blue)](#Citation)
+[![Video](https://img.shields.io/badge/Video-5_mins-lightgrey)](https://lttm.dei.unipd.it/paper_data/RECALL/talk.mp4)
+[![BibTeX](https://img.shields.io/badge/Cite_us-BibTeX-blue)](#Citation)
  
  </div>
  
