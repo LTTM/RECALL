@@ -87,6 +87,8 @@ After we write a ```.gin``` config file (or we take one from the *config/* folde
 
 Where ```MY_CONFIG.gin``` is the specified config file.
 
+All the experiments can be evaluated running ```python main.py``` (running time for all the experiments is less than two days).
+
 ### Configuration files
 Configuration files are used to setup the experiment and all the hyperparameters needed. 
 Their structure is used by the *TrainManager* to optimize training time when some experiments overlap.
